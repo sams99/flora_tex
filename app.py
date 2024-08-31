@@ -5,8 +5,6 @@ from utils import init_db,connect_db, render_navbar, get_daily_stock_data,group_
 from utils import get_aggregated_data, create_company_table, add_company_to_db, create_order_table, get_company_details, add_order_to_db, get_pending_orders,create_invoice_table, get_company_address, add_invoice_to_db, get_stock_details
 from utils import show_invoice_details, add_worker, get_worker_names, add_dailystock, insert_product_details, generate_invoice_pdf
 
-from streamlit_extras.switch_page_button import switch_page
-from streamlit_extras.add_vertical_space import add_vertical_space
 
 
 
